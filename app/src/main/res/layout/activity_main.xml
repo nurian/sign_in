@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/A"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nuri.dooropen.MainActivity">
+
+    <TextView
+        android:text="ARE YOU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp" />
+
+    <Button
+        android:text="HOST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/host"
+        android:onClick="onHostClicked"
+        android:layout_marginTop="67dp"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="GUEST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guest"
+        android:onClick="onGuestClicked"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/host"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:onClick="onbutton2Clicked"
+        android:text="로그인"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:onClick="onbutton3Clicked"
+        android:text="회원가입하기"
+        android:textSize="10dp" />
+
+</RelativeLayout>

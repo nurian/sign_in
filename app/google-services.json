@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "26342908126",
+    "firebase_url": "https://dooropen-f8fa6.firebaseio.com",
+    "project_id": "dooropen-f8fa6",
+    "storage_bucket": "dooropen-f8fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26342908126:android:fcd802ffea3899a3",
+        "android_client_info": {
+          "package_name": "com.example.nuri.dooropen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26342908126-f39gujtprs9o83ii5frf6fbkhc89bejl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nuri.dooropen",
+            "certificate_hash": "4ed0971f81bdd9c69aede182e3a6dbf5d2bbdfd8"
+          }
+        },
+        {
+          "client_id": "26342908126-dp7uiasbp1llou365pomb0a9rin9fbkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeuq2r_wev2Kzt8BREa-SkzQdwyQ8Rxq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26342908126-dp7uiasbp1llou365pomb0a9rin9fbkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

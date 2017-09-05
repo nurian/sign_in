@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/A"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nuri.dooropen.MainActivity">
+
+
+    <EditText
+        android:id="@+id/idtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false" />
+    <EditText
+        android:id="@+id/pwtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="********"
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="30sp"
+        android:layout_marginBottom="109dp"
+        android:layout_above="@+id/lgbutton"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/idtext"
+        android:layout_alignBottom="@+id/idtext"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp" />
+    <Button
+        android:id="@+id/lgbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Login"
+        android:onClick="onlgbuttonClicked"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="14dp" />
+
+    <CheckBox
+        android:id="@+id/autologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="자동로그인"
+        android:layout_above="@+id/lgbutton"
+        android:layout_alignStart="@+id/lgbutton" />
+
+</RelativeLayout>
